@@ -27,4 +27,4 @@ jobs:
     - uses: actions/upload-artifact@v2
       with:
         name: chip8vm
-        path: target/chip8-vm-0.1.0-SNAPSHOT.jar
+        path: target/chip8-vm-0.1-SNAPSHOT.jar

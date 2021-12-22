@@ -4,7 +4,6 @@ import bartico.chip8vm.GhipU;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
 public class JFrameRenderer extends JFrame implements Chip8Renderer {
@@ -18,7 +17,7 @@ public class JFrameRenderer extends JFrame implements Chip8Renderer {
         Dimension contentSize = new Dimension(width, height);
 
         //TODO: Recalculate pixel per column/row based on the contentPane size;
-        pack();
+        //pack();
         Insets insets = getInsets();
         Dimension size = new Dimension(insets.left + width + insets.right,insets.top + height + insets.bottom );
         setSize(size);
